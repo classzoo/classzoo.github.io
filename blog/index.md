@@ -7,4 +7,4 @@ layout: default
 
 ## Recent Posts
 
-- [Welcome to the Blog](2024-08-08-welcome-to-the-blog.md)
+- [Introducing ClassZoo](2024-08-08-introducing-classzoo.md)
