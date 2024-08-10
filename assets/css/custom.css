@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #673ab7;
+}
+
+.page-header {
+  background-image: unset;
+  background-color: #673ab7;
+  padding: 3rem;
+}
+
+.company-name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-logo {
+  margin-right: 10px;
+}
+.company-name {
+  font-size: 1.2em;
+}
+
+.project-name {
+  color: #fff;
+}
+.project-tagline {
+  color: #eee;
+}
+
+.header-nav {
+  text-align: center;
+  margin-top: 2rem;
+}
+.header-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 2rem;
+}
+.header-nav ul li {
+  display: inline;
+}
+.header-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9em;
+}
+.header-nav ul li a:hover {
+  text-decoration: underline;
+}

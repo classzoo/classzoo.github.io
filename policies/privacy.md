@@ -1,4 +1,10 @@
-# Privacy Policy
+---
+layout: default
+title: "Privacy Policy"
+hide_header: true
+---
+
+# ClassZoo Privacy Policy
 
 Last edited time: August 23, 2024 8:40 PM
 
