@@ -1,6 +1,6 @@
 ---
 title: Terms and Conditions
-layout: default
+layout: legal
 ---
 
 # Terms and Conditions

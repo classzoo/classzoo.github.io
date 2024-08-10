@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Privacy Policy"
-hide_header: true
+title: Privacy Policy
+layout: legal
 ---
 
 # ClassZoo Privacy Policy

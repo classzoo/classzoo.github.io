@@ -10,14 +10,10 @@
     {% seo %}
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <div class="company-name-wrapper">
-        <img class="company-logo" src="{{ '/assets/images/classzoo_40x40.png' | relative_url }}" alt="ClassZoo" class="project-logo">
-        <span class="company-name"><strong>Class</strong>Zoo</span>
-      </div>
-    </header>
     <main id="content" class="main-content" role="main">
+      <div style="margin: 1rem 0;">
+        <img src="/assets/images/classzoo_320x320.png" alt="ClassZoo Logo" width="100">
+      </div>
       {{ content }}
     </main>
   </body>
