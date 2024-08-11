@@ -1,7 +1,15 @@
+.main-content {
+  margin-top: 0;
+}
+
 .page-header {
   background-image: unset;
   background-color: #673ab7;
   padding: 3rem;
+}
+
+.legal-header {
+  padding: 1rem;
 }
 
 .company-name-wrapper {
@@ -31,4 +39,9 @@
 .main-content h5,
 .main-content h6 {
   color: #333;
+}
+
+#classzoo-privacy-policy,
+#classzoo-terms-and-conditions {
+  margin-top: 0;
 }
