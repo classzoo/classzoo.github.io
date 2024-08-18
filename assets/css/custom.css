@@ -2,10 +2,22 @@
   margin-top: 0;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .page-header {
   background-image: unset;
+  background-color: transparent;
+  padding: 0;
+}
+
+.header-container {
   background-color: #673ab7;
   padding: 3rem;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
 }
 
 .legal-header {
