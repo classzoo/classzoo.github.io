@@ -7,20 +7,35 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     {% seo %}
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <div class="container header-container">
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <div class="company-name-wrapper">
-          <img class="company-logo" src="{{ '/assets/images/classzoo_40x40.png' | relative_url }}" alt="ClassZoo" class="project-logo">
-          <span class="company-name"><strong>Class</strong>Zoo</span>
-        </div>
+
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+      <button type="button" class="menu-button" onclick="toggleMenu()">☰</button>
+      <img class="company-logo" src="{{ '/assets/images/classzoo_40x40.png' | relative_url }}" alt="ClassZoo" class="project-logo">
+      <span><strong>Class</strong>Zoo Help Center</span>
+  </div>
+
+  <!-- Side Menu -->
+  <div id="sideMenu" class="side-menu">
+    <a href="#section1"><span class="icon-circle"><i class="fas fa-book"></i></span> Using ClassZoo</a>
+    <a href="#section2"><span class="icon-circle"><i class="fas fa-school"></i></span> Managing Your School</a>
+    <a href="#section4"><span class="icon-circle"><i class="fas fa-calendar-alt"></i></span> Scheduling Classes</a>
+    <a href="#section4"><span class="icon-circle"><i class="fas fa-file-alt"></i></span> Forms</a>
+    <a href="#section4"><span class="icon-circle"><i class="fas fa-comments"></i></span> Instant Messages</a>
+    <a href="#section4"><span class="icon-circle"><i class="fas fa-mobile-alt"></i></span> Mobile App</a>
+    <a href="#section3"><span class="icon-circle"><i class="fas fa-file-contract"></i></span> Policies</a>
+  </div>
+
+  <!-- Main Content Area -->
+  <div id="mainContent" class="main-content">
+      <div class="container">
+        <h1>{{ page.title}}</h1>
+        {{ content }}
       </div>
-    </header>
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
+  </div>
   </body>
 </html>
