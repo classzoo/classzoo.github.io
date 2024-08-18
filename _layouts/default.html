@@ -14,13 +14,12 @@
 
     <!-- Top Navigation Bar -->
     <div class="top-nav">
-      <button type="button" class="menu-button" onclick="toggleMenu()">☰</button>
       <img class="company-logo" src="{{ '/assets/images/classzoo_40x40.png' | relative_url }}" alt="ClassZoo" class="project-logo">
       <span><strong>Class</strong>Zoo Help Center</span>
   </div>
 
   <!-- Side Menu -->
-  <div id="sideMenu" class="side-menu collapsed">
+  <div id="sideMenu" class="side-menu">
     <a href="#section1"><span class="icon-circle"><i class="fas fa-book"></i></span> Using ClassZoo</a>
     <a href="#section2"><span class="icon-circle"><i class="fas fa-school"></i></span> Managing Your School</a>
     <a href="#section4"><span class="icon-circle"><i class="fas fa-calendar-alt"></i></span> Scheduling Classes</a>
@@ -37,12 +36,5 @@
         {{ content }}
       </div>
   </div>
-
-  <script>
-    function toggleMenu() {
-      const sideMenu = document.getElementById('sideMenu');
-      sideMenu.classList.toggle('collapsed');
-    }
-  </script>
   </body>
 </html>
