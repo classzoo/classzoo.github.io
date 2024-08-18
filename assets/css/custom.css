@@ -30,6 +30,7 @@ a.button:hover {
   display: flex;
   align-items: center;
   font-size: 20px;
+  height: 75px;
 }
 .top-nav .menu-button {
   cursor: pointer;
@@ -48,7 +49,8 @@ a.button:hover {
 .side-menu {
   height: 100%;
   width: 300px;
-  position: fixed;
+  position: absolute;
+  top: 75px;
   left: 0;
   padding-top: 2rem;
   background-color: #eee;
