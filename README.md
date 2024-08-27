@@ -40,4 +40,4 @@ $ bundle exec jekyll serve
 
 ## Contribution
 
-This repository is maintained by the ClassZoo team. As functionality is modified in the (ClassZoo repository)[https://github.com/classzoo/classzoo], open issues within this repository requesting documentation to be updated here.
+This repository is maintained by the ClassZoo team. As functionality is modified in the [ClassZoo repository](https://github.com/classzoo/classzoo), open issues within this repository requesting documentation to be updated here.
