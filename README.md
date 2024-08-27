@@ -1,32 +1,43 @@
-# ClassZoo Support Site
+# ClassZoo Help Center
 
-Welcome to the **ClassZoo Support Site**. This GitHub Pages site is the official customer support platform for ClassZoo, a web application designed to assist small educational businesses, including martial arts studios, preschools, music schools, and more. Here, you’ll find comprehensive documentation, company policies, and other essential static content that complements our main website.
+<img src="https://help.classzoo.ca/assets/images/classzoo_40x40.png" alt="ClassZoo Logo" />
+
+Welcome to the **ClassZoo Helper Center Site**. This GitHub Pages site is the official customer support platform for ClassZoo, a web application designed to assist small educational businesses, including martial arts studios, preschools, music schools, and more. Here, you’ll find comprehensive documentation, company policies, and other essential static content that complements our main website.
 
 ## Purpose
 
-The ClassZoo Support Site serves as your go-to resource for:
+The ClassZoo Help Center serves as your go-to resource for:
 
 - **Documentation**: Detailed guides, FAQs, and troubleshooting tips for using the ClassZoo platform effectively.
 - **Company Policies**: Access our privacy policy, terms and conditions, and other important legal documents.
 - **Static Content**: Additional resources and content that support your use of ClassZoo but are not included on the main website.
 
-## Getting Started
+## Running 
 
-Navigate through the site using the header links to find the information you need:
+- Install [Jekyll](https://jekyllrb.com/docs/installation/)
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- Install [Bundler](https://bundler.io/)
 
-- **Home**: Overview of what ClassZoo offers and how to get the most out of the platform.
-- **Documentation**: Step-by-step guides on how to use various features of ClassZoo.
-- **Policies**: Read our privacy policy, terms of service, and other legal documents.
-- **Support Blog**: Stay updated with the latest tips, news, and updates related to ClassZoo.
+On the first launch, install dependencies: `bundle install`
+
+- Run the Jekyll site locally: `bundle exec jekyll serve`
+
+```bash
+$ bundle exec jekyll serve
+> Configuration file: /Users/myusername/classzoo.github.io/_config.yml
+>            Source: /Users/myusername/classzoo.github.io
+>       Destination: /Users/myusername/classzoo.github.io/_site
+> Incremental build: disabled. Enable with --incremental
+>      Generating...
+>                    done in 0.309 seconds.
+> Auto-regeneration: enabled for '/Users/myusername/classzoo.github.io'
+> Configuration file: /Users/myusername/classzoo.github.io/_config.yml
+>    Server address: http://127.0.0.1:4000/
+>  Server running... press ctrl-c to stop.
+```
+
+- Navigate to [http://localhost:4000](http://localhost:4000)
 
 ## Contribution
 
-This repository is maintained by the ClassZoo team. If you encounter any issues or have suggestions for improving the support content, please feel free to open an issue or submit a pull request.
-
-## License
-
-All content on this site is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For further assistance or inquiries, visit the [ClassZoo main website](https://www.classzoo.com) or contact our support team at [support@classzoo.com](mailto:support@classzoo.com).
+This repository is maintained by the ClassZoo team. As functionality is modified in the (ClassZoo repository)[https://github.com/classzoo/classzoo], open issues within this repository requesting documentation to be updated here.
